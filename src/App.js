@@ -10,7 +10,7 @@ class App extends Component {
     this.state = { inputKey: "", videoList: [] };
   }
   getData = async (kalitSuz) => {
-    const key = "AIzaSyALzKAC2x2XpT51a33xJHKesSJXHViYVAA";
+    const key = "AIzaSyAheMJMek78FF7b0aRPtgVP2tnuObquSGI";
     const data = await axios.get(
       "https://www.googleapis.com/youtube/v3/search",
       {
